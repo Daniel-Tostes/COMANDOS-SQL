@@ -1,0 +1,94 @@
+INSERT INTO ativ (
+CD_ATIV,
+NM_SIGLA,
+TX_DESCRICAO
+) VALUES (
+123,
+'sooner',
+'descrição foda'
+)
+
+INSERT INTO depto (
+CD_DEPTO, 
+NM_DEPTO, 
+CD_GERENTE, 
+CD_DEPTO_CTB
+) VALUES (
+'E21',
+152,
+51452,
+'E20'	
+)
+
+INSERT INTO func (
+CD_MAT, 
+NM_FUNC, 
+NM_SOBRENOME, 
+CD_DEPTO, 
+NR_RAMAL, 
+DT_ADM, 
+NR_CARGO, 
+NR_RG, 
+IN_SEXO, 
+DT_NASC, 
+VL_SAL, 
+NM_FOTO
+) VALUES (
+'2031', 
+'DANIEL', 
+'TOSTES', 
+'E20', 
+'1400', 
+'2023-04-21', 
+'521', 
+'12', 
+'M', 
+'2007-07-24', 
+'1500.00', 
+NULL
+)
+
+INSERT INTO hst_promo (
+CD_MAT, 
+CD_DEPTO, 
+DT_PROMOCAO, 
+VL_SAL, 
+NR_CARGO, 
+TX_MOTIVO
+) VALUES (
+'2031', 
+'E20', 
+'2024-06-11',
+'1500.00', 
+'521', 
+'nicolas decidiu fazer o rpg'
+)
+
+INSERT INTO proj (
+CD_PROJ, 
+NM_PROJ, 
+CD_DEPTO, 
+QT_EQP,
+DT_INI,
+ DT_FIM
+) VALUES (
+'E6969', 
+'projetin', 
+'E21', 
+'6969', 
+'2024-05-21', 
+'2025-05-21'
+)
+
+INSERT INTO projeto_atividade (
+CD_PROJ, 
+CD_ATIV, 
+DT_INI, 
+DT_FIM
+) VALUES (
+'E6969', 
+'123', 
+'2024-05-21', 
+'2025-05-21'
+)
+

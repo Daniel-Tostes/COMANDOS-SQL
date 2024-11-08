@@ -1,0 +1,2 @@
+UPDATE func
+SET VL_SAL = VL_SAL * 1.1;
